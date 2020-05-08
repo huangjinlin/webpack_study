@@ -1,5 +1,5 @@
 import $ from "jquery";
 $(function(){
-    $("li:odd").css("background","cyan");
-    $("li:odd").css("background","pink");
+    $("li:odd").css("background","red");
+    $("li:even").css("background","pink");
 })

@@ -105,7 +105,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function(){\r\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"li:odd\").css(\"background\",\"cyan\");\r\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"li:odd\").css(\"background\",\"pink\");\r\n})\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()(function(){\r\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"li:odd\").css(\"background\",\"green\");\r\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"li:even\").css(\"background\",\"pink\");\r\n})\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
