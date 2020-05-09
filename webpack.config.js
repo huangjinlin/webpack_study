@@ -8,6 +8,9 @@ const htmlPlugin = new HtmlWebpackPlugin({
     //设置生成的预览页面名称
     filename: "index.html"
 })
+
+const VueLoaderPlugin = require("vue-loader/lib/plugin");
+const vuePlugin = new VueLoaderPlugin();
 module.exports = {
     mode: "development",//可以设置为development(开发模式)，production(发布模式),
     entry: path.join(__dirname, './src/main.js'),//__dirname是webpack.config.js所在的路径
@@ -15,7 +18,7 @@ module.exports = {
         path: path.join(__dirname, './dist'),
         filename: 'bundle.js'
     },
-    plugins:[ htmlPlugin ],
+    plugins:[ htmlPlugin, vuePlugin ],
     module : {
         rules:[
             {
@@ -43,6 +46,10 @@ module.exports = {
                 use:"babel-loader",
                 //exclude为排除项，意思是不要处理node_modules中的js文件
                 exclude:/node_modules/
+            },
+            { 
+                test:/\.vue$/,
+                loader:"vue-loader"
             }
         ]
     }
